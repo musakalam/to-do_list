@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    font-family: Noto Mono;
+    padding: 0 ;
+  }
+  .container{
+    background-color: #3DC552;
+    padding: 20px 30px ;
+   color:white;
+  }
+  #todo-item{
+    margin: 10px;
+    
+  }
+  input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+    width: 65%;
+    
+  }
+  #todo-add{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #21AE24;
+    outline: none;
+    border: none;
+    color: #fff;
+    
+  }
+  h1{
+    margin: 10px;
+  }
+  ol{
+    list-style-type: circle ;
+  }
+  li{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #ccc;
+    padding: 10px;
+  }
+
+  p{
+    color: red;
+    margin: 10px;
+  }
+  button{
+    margin-right: auto;
+    display: inline;
+    margin: 0;
+   
+    
+    
+  }
+.remove{
+  float: right;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: #ccc;
+  
+}
